@@ -15,5 +15,3 @@ document.getElementById("generate").addEventListener("click", displayRandomQuote
 
 // 最初の格言を表示
 displayRandomQuote();
-
-
