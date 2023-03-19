@@ -27,7 +27,5 @@ function displayRandomQuote() {
     document.getElementById("quote").innerText = randomQuote;
 }
 
-document.getElementById("generate").addEventListener("click", displayRandomQuote);
-
-// 最初の格言を表示
-displayRandomQuote();
+// 5秒ごとにdisplayRandomQuote関数を実行
+setInterval(displayRandomQuote, 5000);
